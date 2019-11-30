@@ -1,0 +1,20 @@
+{
+    "name": "torrent-app-seed",
+    "version": "1.0.0",
+    "description": "Semeia torrents na rede P2P",
+    "main": "init.js",
+    "scripts": {
+      "start": "node init.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hardx4/torrent-app-seed.git"
+    },
+    "dependencies": {      
+      "cli-color": "^2.0.0",
+      "dateformat": "^3.0.3",      
+      "express": "^4.17.1",
+      "socket.io": "^2.3.0",
+      "webtorrent": "^0.107.17"
+    }
+  }
