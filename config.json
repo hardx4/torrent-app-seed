@@ -1,0 +1,24 @@
+{
+    "appName": "torrent-app-seed",
+    "appVersion": "1.0.0",   
+    
+    "port": 5050,
+    "torrentPort": 1992,
+
+	"logging": {
+        "files": {
+            "level": "info",
+            "directory": "logs",
+            "flushInterval": 5
+        },
+        "console": {
+            "level": "info",
+            "colors": true
+        }
+    },
+
+    "torrents_file_folder": "./torrents_files",
+    "torrents_folder": "torrents_on_seed/",
+    "refresh_interval_seconds": 10
+    
+}
